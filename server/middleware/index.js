@@ -32,5 +32,5 @@ if(process.env.NODE_ENV === 'production'){
     module.exports.requiresSecure = requiresSecure;
 }
 else{
-    module,exports.requiresSecure = bypassSecure;
+    module.exports.requiresSecure = bypassSecure;
 }
